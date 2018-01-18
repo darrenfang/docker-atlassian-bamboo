@@ -8,3 +8,5 @@ RUN apk add --no-cache maven docker
 
 USER daemon:daemon
 
+WORKDIR /var/atlassian/bamboo
+
